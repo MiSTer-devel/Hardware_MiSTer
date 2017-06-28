@@ -25,7 +25,7 @@ Thinner PCB are harder to handle and more fragile. For SDRAM shield 0.6-0.8mm is
 * SDRAM uses [AS4C16M16SA-6TCN](http://www.mouser.tw/Search/ProductDetail.aspx?R=AS4C16M16SA-6TCNvirtualkey56240000virtualkey913-4C16M16SA-6TCN) chip.
 It's strongly suggested to use exactly this chip. Usually other similar projects use older chip MT48LC16M16A2, but it doesn't work well on this project.
 Maximum clock achieved on MT48LC16M16A2 is 60MHz which is not acceptable for most projects. It's unclear which exact problem prevents
-to use higher clock. May be power consumption or older technology process is the reason. With AS4C16M16SA-6TCN maximum achieved clock is 150MHz+.
+to use higher clock. May be power consumption or older technology process is the reason. With AS4C16M16SA-6TCN maximum achieved clock is 150MHz (167MHz in horizontal mount with 1.6mm PCB).
 Another chip tested is IS42S16320D-6TL which is actually 64MB. The maximum clock achived is 130MHz which is acceptable.
 64MB is 4 times more expensive and not suggested to use due to all cores are targeted for 32MB only.
 64MB is fully backward compatible with 32MB and can be used if price is not an issue. Probably 32MB chip from the same serie of ISSI mfg should work fine as well. Basically any chip with achived clock of 120MHz can be considered as acceptable.
