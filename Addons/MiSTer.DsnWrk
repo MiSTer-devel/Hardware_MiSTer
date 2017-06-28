@@ -1,0 +1,8 @@
+[ProjectGroup]
+Version=1.0
+[Project1]
+ProjectPath=IOBoard\iobrd.PrjPcb
+[Project2]
+ProjectPath=SDRAM\sdram.PrjPcb
+[Project3]
+ProjectPath=SDRAM_shield\sdram_shield.PrjPcb
