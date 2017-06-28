@@ -35,3 +35,6 @@ Use [Memtest](https://github.com/MiSTer-devel/MemTest_MiSTer/tree/master/release
 * For angled 40pin header (Vertical SDRAM board) use [standard angled 40pin header](https://github.com/MiSTer-devel/Hardware_MiSTer/blob/master/images/header_2.54mm_Pitch-2x20_Pin-Female-Double_Row-Right_Angle_Pin.jpg)
 
 ### Some images of boards can be found [here](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/images)
+
+## Ordering the boards
+To find the cheapest and/or reliable PCB manufacturer you can use [PCBShopper](https://pcbshopper.com/). Typically it's chinese manufacturer. The minimum order quantity usually is 10 pieces of the same board (you may order less quantity but will pay for 10 anyway). I suggest to use [PCBWay](https://www.pcbway.com/member/order/orderonline.aspx) as PCB manufacturer. They give very cheap price - 5USD for 10 pieces of the same board. They allow to choose the color of PCB and thickness (1.6mm for best experience). Manufacturing is pretty fast - 2-3 days usually. I like them also for delivery price to my country.
