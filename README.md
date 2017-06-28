@@ -37,4 +37,22 @@ Use [Memtest](https://github.com/MiSTer-devel/MemTest_MiSTer/tree/master/release
 ### Some images of boards can be found [here](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/images)
 
 ## Ordering the boards
-To find the cheapest and/or reliable PCB manufacturer you can use [PCBShopper](https://pcbshopper.com/). Typically it's chinese manufacturer. The minimum order quantity usually is 10 pieces of the same board (you may order less quantity but will pay for 10 anyway). I suggest to use [PCBWay](https://www.pcbway.com/member/order/orderonline.aspx) as PCB manufacturer. They give very cheap price - 5USD for 10 pieces of the same board. They allow to choose the color of PCB and thickness (1.6mm for best experience). Manufacturing is pretty fast - 2-3 days usually. I like them also for delivery price to my country.
+To find the cheapest and/or reliable PCB manufacturer you can use [PCBShopper](https://pcbshopper.com/). Typically it's chinese manufacturer. The minimum order quantity usually is 10 pieces of the same board (you may order less quantity but will pay for 10 anyway).
+
+I suggest to use [PCBWay](https://www.pcbway.com/member/order/orderonline.aspx) as PCB manufacturer. They give very cheap price - 5USD for 10 pieces of the same board. They allow to choose the color of PCB and thickness. Manufacturing is pretty fast - 2-3 days usually. I like them also for delivery price to my country.
+
+### Options for PCB ordering:
+* Board type: Single pieces
+* Different Design in Panel: 1
+* Quantity: usually 10. See the final price after change the quantity.
+* size 100x100mm - manufacturer will adjust the size according to gerber file
+* 2 layers
+* Material: any FR-4
+* Thickness: 1.6mm (0.8mm for SDRAM Shield if price the same, otherwize 1.6mm should be OK)
+* Solder mask/Silkscreen colors: any you like if price the same.
+* Min Track/Spacing: 6/6mil or less
+* Min Hole Size: 0.3mm or less
+* Via Process: Tenting vias
+* Gold fingers: No
+* Finished Copper: 1oz or more
+* Surface Finish - HASL with lead. Some manufacturers provide ENIG (immersion gold) for free, but i don't suggest it as it's harder to solder than HASL (pre-soldered finish). "With lead" means lower soldering temperature. "Lead free" will require higher temperature for soldering.
