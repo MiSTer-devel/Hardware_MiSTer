@@ -25,16 +25,34 @@ Thinner PCB are harder to handle and more fragile. For SDRAM shield 0.6-0.8mm is
 * SDRAM uses [AS4C16M16SA-6TCN](http://www.mouser.tw/Search/ProductDetail.aspx?R=AS4C16M16SA-6TCNvirtualkey56240000virtualkey913-4C16M16SA-6TCN) chip.
 It's strongly suggested to use exactly this chip. Usually other similar projects use older chip MT48LC16M16A2, but it doesn't work well on this project.
 Maximum clock achieved on MT48LC16M16A2 is 60MHz which is not acceptable for most projects. It's unclear which exact problem prevents
-to use higher clock. May be power consumption or older technology process is the reason. With AS4C16M16SA-6TCN maximum achieved clock is 150MHz+.
+to use higher clock. May be power consumption or older technology process is the reason. With AS4C16M16SA-6TCN maximum achieved clock is 150MHz (167MHz in horizontal mount with 1.6mm PCB).
 Another chip tested is IS42S16320D-6TL which is actually 64MB. The maximum clock achived is 130MHz which is acceptable.
 64MB is 4 times more expensive and not suggested to use due to all cores are targeted for 32MB only.
 64MB is fully backward compatible with 32MB and can be used if price is not an issue. Probably 32MB chip from the same serie of ISSI mfg should work fine as well. Basically any chip with achived clock of 120MHz can be considered as acceptable.
 Use [Memtest](https://github.com/MiSTer-devel/MemTest_MiSTer/tree/master/releases) utility to check the quality of SDRAM board.
 * SDRAM board can be mounted vertically and horizontally. Horizontal mount gives a little higher supported clocks. Vertical mount has better look like cartridge.
-* For straight 40pin header (IOBoard and horizontal SDRAM board) it's advised to use a [special header](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/images/header_2.54mm_Pitch-2x20_Pin-Female-Double_Row-Long_Pin.jpg) with additional plastic on pin making it higher and match the height of Arduino header of DE10-nano board.
+* For straight 40pin header (IOBoard and horizontal SDRAM board) it's advised to use a [special header](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/images/header_2.54mm_Pitch-2x20_Pin-Female-Double_Row-Long_Pin.jpg) with additional plastic on pins making it higher and match the height of Arduino header of DE10-nano board. You can find such connectors on Aliexpress ([pack of 10](https://www.aliexpress.com/item/10-Pcs-NEW-2-54mm-Pitch-2x20-Pin-40-Pin-Female-Double-Row-Long-Pin-Header/32812823728.html) or [pack of 2](https://www.aliexpress.com/item/2-Pcs-PC104-2-54mm-Pitch-2x20-Pin-40-Pin-Female-Double-Row-Long-Pin-Header/32805691836.html)). If it's impossible to find a pictured header then there are 2 less convenient options: 1) use standard profile straight connector. You need to solder it as high as possible for better contact. It won't plug fully due to arduino high header and your board may weagle (especially SDRAM horisontal board) and may damage the DE10-nano connectors - so you have to be careful! 2) Use angled 2x20pin header. You need straighten its pins, so you will get long straight pins. Then connect it to DE10-nano board and then insert the daughter board on top and keeping it at the level when it will be parallel to main board and fully sit on arduino header, solder several pins (be careful! don't damage DE10-nano by static!) then carefully unplug the daughter board with connector and solder rest pins. If you will make it right, then you will get a perfectly sitting connector.
 * For angled 40pin header (Vertical SDRAM board) use [standard angled 40pin header](https://github.com/MiSTer-devel/Hardware_MiSTer/blob/master/images/header_2.54mm_Pitch-2x20_Pin-Female-Double_Row-Right_Angle_Pin.jpg)
 
 ### Some images of boards can be found [here](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/images)
 
 ## Ordering the boards
-To find the cheapest and/or reliable PCB manufacturer you can use [PCBShopper](https://pcbshopper.com/). Typically it's chinese manufacturer. The minimum order quantity usually is 10 pieces of the same board (you may order less quantity but will pay for 10 anyway). I suggest to use [PCBWay](https://www.pcbway.com/member/order/orderonline.aspx) as PCB manufacturer. They give very cheap price - 5USD for 10 pieces of the same board. They allow to choose the color of PCB and thickness (1.6mm for best experience). Manufacturing is pretty fast - 2-3 days usually. I like them also for delivery price to my country.
+To find the cheapest and/or reliable PCB manufacturer you can use [PCBShopper](https://pcbshopper.com/). Typically it's chinese manufacturer. The minimum order quantity usually is 10 pieces of the same board (you may order less quantity but will pay for 10 anyway).
+
+I suggest to use [PCBWay](https://www.pcbway.com/member/order/orderonline.aspx) as PCB manufacturer. They give very cheap price - 5USD for 10 pieces of the same board. They allow to choose the color of PCB and thickness. Manufacturing is pretty fast - 2-3 days usually. I like them also for delivery price to my country.
+
+### Options for PCB ordering:
+* Board type: Single pieces
+* Different Design in Panel: 1
+* Quantity: usually 10. See the final price after change the quantity.
+* size 100x100mm - manufacturer will adjust the size according to gerber file
+* 2 layers
+* Material: any FR-4
+* Thickness: 1.6mm (0.8mm for SDRAM Shield if price the same, otherwize 1.6mm should be OK)
+* Solder mask/Silkscreen colors: any you like if price the same.
+* Min Track/Spacing: 6/6mil or less
+* Min Hole Size: 0.3mm or less
+* Via Process: Tenting vias
+* Gold fingers: No
+* Finished Copper: 1oz or more
+* Surface Finish - HASL with lead. Some manufacturers provide ENIG (immersion gold) for free, but i don't suggest it as it's harder to solder than HASL (pre-soldered finish). "With lead" means lower soldering temperature. "Lead free" will require higher temperature for soldering.
