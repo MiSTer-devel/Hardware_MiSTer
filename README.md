@@ -11,6 +11,8 @@ latency and cannot fit into timings of retro EDO DRAM. So, if core quires precis
 Although some cores aren't requiring this board, still many other cores need it.
 Thus **SDRAM board is required**.
 
+There are two SDRAM board versions. **"SDRAM"** version can be mounted horizontally outward and vertically - this is prefered version of board. **"SDRAM_rev"** version can be mounted only horizontally inward. This version covers 13 GPIO pins of Arduino header and may become incompatible in future extensions - keep it in mind!
+
 ### [SDRAM Shield](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/Addons/SDRAM_shield)
 This is a small add-on for SDRAM board to use it as a shield and make SDRAM board easy to handle. Originally it's supposed
 to be an anti-EMI protection shield, but tests shown no improvements. Thus this is optional.
