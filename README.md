@@ -41,7 +41,7 @@ Use [Memtest](https://github.com/MiSTer-devel/MemTest_MiSTer/tree/master/release
 ## Ordering the boards
 To find the cheapest and/or reliable PCB manufacturer you can use [PCBShopper](https://pcbshopper.com/). Typically it's chinese manufacturer. The minimum order quantity usually is 10 pieces of the same board (you may order less quantity but will pay for 10 anyway).
 
-I suggest to use [PCBWay](https://www.pcbway.com/member/order/orderonline.aspx) as PCB manufacturer. They give very cheap price - 5USD for 10 pieces of the same board. They allow to choose the color of PCB and thickness. Manufacturing is pretty fast - 2-3 days usually. I like them also for delivery price to my country.
+I suggest to use [PCBWay](https://www.pcbway.com/setinvite.aspx?inviteid=43024) as PCB manufacturer. They give very cheap price - 5USD for 10 pieces of the same board. They allow to choose the color of PCB and thickness. Manufacturing is pretty fast - 2-3 days usually. I like them also for delivery price to my country.
 
 ### Options for PCB ordering:
 * Board type: Single pieces
