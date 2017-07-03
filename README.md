@@ -43,6 +43,8 @@ To find the cheapest and/or reliable PCB manufacturer you can use [PCBShopper](h
 
 I suggest to use [PCBWay](https://www.pcbway.com/setinvite.aspx?inviteid=43024) as PCB manufacturer. They give very cheap price - 5USD for 10 pieces of the same board. They allow to choose the color of PCB and thickness. Manufacturing is pretty fast - 2-3 days usually. I like them also for delivery price to my country.
 
+Another suggested PCB manufacturer is OSHPark. Here is the [direct link](https://oshpark.com/profiles/MiSTer) where you can order the boards by simple click. Prices are higher, but might be suitable for those living in US. They provide a free worldwide delivery. Probably I/O board is too pricey on OSHPark, but most important SDRAM board is pretty cheap. They provide 3 pieces of the same board (not 10!).
+
 ### Options for PCB ordering:
 * Board type: Single pieces
 * Different Design in Panel: 1
