@@ -22,7 +22,7 @@ You need to use Altium Designer v17.0 (or later) in order to view the source fil
 and ready to submit to PCB manufacturer.
 
 Some quick notes:
-* **There are no notches/dents on 40pin connectors, so pay attention how you plug the daughter boards!** It's easy to plug it backward or shifted - **this may damage DE10-nano board**. Make sure PIN1 on one board is mathed to PIN1 on other board. You may refer to pictures in images directory.
+* **There are no notches/dents on 40pin connectors, so pay attention how you plug the daughter boards!** It's easy to plug it backward or shifted - **this may damage DE10-nano board**. Make sure PIN1 on one board is matched to PIN1 on other board. You may refer to pictures in images directory.
 * It's preferred to order 1.6mm PCB thickness. I've tried 0.8mm and found no improvements in any aspect.
 Thinner PCB are harder to handle and more fragile. For SDRAM shield 0.6-0.8mm is more convenient, though.
 * SDRAM uses [AS4C16M16SA-6TCN](http://www.mouser.tw/Search/ProductDetail.aspx?R=AS4C16M16SA-6TCNvirtualkey56240000virtualkey913-4C16M16SA-6TCN) chip.
