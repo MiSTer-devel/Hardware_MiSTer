@@ -3,10 +3,6 @@ Version=1.0
 [Project1]
 ProjectPath=IOBoard\iobrd.PrjPcb
 [Project2]
-ProjectPath=SDRAM\sdram.PrjPcb
+ProjectPath=SDRAM_uni\sdram_uni.PrjPcb
 [Project3]
-ProjectPath=SDRAM_shield\sdram_shield.PrjPcb
-[Project4]
 ProjectPath=SDRAM_rev\sdram_rev.PrjPcb
-[Project5]
-ProjectPath=SDRAM_rev_shield\sdram_rev_shield.PrjPcb
