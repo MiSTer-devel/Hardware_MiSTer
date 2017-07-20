@@ -11,11 +11,9 @@ latency and cannot fit into timings of retro EDO DRAM. So, if core quires precis
 Although some cores aren't requiring this board, still many other cores need it.
 Thus **SDRAM board is required**.
 
-There are two SDRAM board versions. **"SDRAM"** version can be mounted horizontally outward and vertically - this is prefered version of board. **"SDRAM_rev"** version can be mounted only horizontally inward. This version covers 13 GPIO pins of Arduino header and may become incompatible in future extensions - keep it in mind!
-
-### [SDRAM Shield](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/Addons/SDRAM_shield)
-This is a small add-on for SDRAM board to use it as a shield and make SDRAM board easy to handle. Originally it's supposed
-to be an anti-EMI protection shield, but tests shown no improvements. Thus this is optional.
+### There are two SDRAM board versions:
+* **"SDRAM_uni"** version is universal and can be mounted vertically, horizontally inward or outward. When it's mounted horizontally inward, it covers Arduino GPIO and thus no future expansions will be possible. You always can mount it outward or vertically by de-soldering one connector and solder it to other holes to use Arduino GPIO. Depeding on several factors it can reach up to 167MHz speed if mounted horizontally, up to 150MHz if mounted vertically.
+* **"SDRAM_rev"** version is updated inward-only version. Now it has through holes for Arduino connector, so it's possible to use those GPIO for future extensions. Note: although it has soldering points to retain Arduino long pin female header, it's better not to solder it, but just plug male connector through this SDRAM board. Depeding on several factors it can reach up to 150MHz speed.
 
 ## Notes
 You need to use Altium Designer v17.0 (or later) in order to view the source files. For convenience, [gerber files](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/gerber_releases) are also included
@@ -24,7 +22,7 @@ and ready to submit to PCB manufacturer.
 Some quick notes:
 * **There are no notches/dents on 40pin connectors, so pay attention how you plug the daughter boards!** It's easy to plug it backward or shifted - **this may damage DE10-nano board**. Make sure PIN1 on one board is matched to PIN1 on other board. You may refer to pictures in images directory.
 * It's preferred to order 1.6mm PCB thickness. I've tried 0.8mm and found no improvements in any aspect.
-Thinner PCB are harder to handle and more fragile. For SDRAM shield 0.6-0.8mm is more convenient, though.
+Thinner PCB are harder to handle and more fragile.
 * SDRAM uses [AS4C16M16SA-6TCN](http://www.mouser.tw/Search/ProductDetail.aspx?R=AS4C16M16SA-6TCNvirtualkey56240000virtualkey913-4C16M16SA-6TCN) chip.
 It's strongly suggested to use exactly this chip. Usually other similar projects use older chip MT48LC16M16A2, but it doesn't work well on this project.
 Maximum clock achieved on MT48LC16M16A2 is 60MHz which is not acceptable for most projects. It's unclear which exact problem prevents
@@ -53,7 +51,7 @@ Another suggested PCB manufacturer is OSHPark. Here is the [direct link](https:/
 * size 100x100mm - manufacturer will adjust the size according to gerber file
 * 2 layers
 * Material: any FR-4
-* Thickness: 1.6mm (0.8mm for SDRAM Shield if price the same, otherwize 1.6mm should be OK)
+* Thickness: 1.6mm
 * Solder mask/Silkscreen colors: any you like if price the same.
 * Min Track/Spacing: 6/6mil or less
 * Min Hole Size: 0.3mm or less
