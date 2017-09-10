@@ -72,7 +72,7 @@ GenerateClassCluster=0
 DocumentUniqueId=FCYRBTVD
 
 [Document3]
-DocumentPath=footprints.PcbLib
+DocumentPath=..\lib.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -89,7 +89,7 @@ GenerateClassCluster=0
 DocumentUniqueId=CFOBFPGD
 
 [Document4]
-DocumentPath=Schlib1.SchLib
+DocumentPath=..\lib.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
