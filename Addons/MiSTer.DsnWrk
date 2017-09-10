@@ -4,3 +4,5 @@ Version=1.0
 ProjectPath=IOBoard\iobrd.PrjPcb
 [Project2]
 ProjectPath=SDRAM_uni\sdram_uni.PrjPcb
+[Project3]
+ProjectPath=RTC\rtc.PrjPcb
