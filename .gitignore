@@ -3,4 +3,7 @@ debug.log
 History
 Project*
 *.OutJob
+*.log
+*.stp
+*.step
 
