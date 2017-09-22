@@ -5,6 +5,9 @@ This board provides VGA, Analog and Digital audio outputs. It also provides Butt
 in order to integrate into cases (like Amiga 1200 case). This board is very handy and convenient but not required since all cores
 provide HDMI video and Audio output with ability to use DE10-nano on-board LEDs and Buttons.
 
+### [RTC daughter board](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/Addons/RTC)
+This board provides real time clock. It's plugged into LTC connector.
+
 ### [SDR SDRAM daughter board](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/Addons/SDRAM)
 This board provides 32MB of SDR SDRAM memory for cores requiring a large (>512KB) memory. Although DE10-nano has DDR3 RAM, it has big
 latency and cannot fit into timings of retro EDO DRAM. So, if core quires precise memory timings, then DDR3 cannot be used.
