@@ -8,7 +8,7 @@ provide HDMI video and Audio output with ability to use DE10-nano on-board LEDs 
 ### [RTC daughter board](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/Addons/RTC)
 This board provides real time clock. It's plugged into LTC connector.
 
-### [SDR SDRAM daughter board](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/Addons/SDRAM)
+### [SDR SDRAM daughter board](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/Addons/SDRAM_uni)
 This board provides 32MB of SDR SDRAM memory for cores requiring a large (>512KB) memory. Although DE10-nano has DDR3 RAM, it has big
 latency and cannot fit into timings of retro EDO DRAM. So, if core quires precise memory timings, then DDR3 cannot be used.
 Although some cores aren't requiring this board, still many other cores need it.
