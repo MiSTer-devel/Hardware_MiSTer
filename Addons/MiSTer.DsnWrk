@@ -5,6 +5,8 @@ ProjectPath=IOBoard\iobrd.PrjPcb
 [Project2]
 ProjectPath=SDRAM_uni\sdram_uni.PrjPcb
 [Project3]
-ProjectPath=RTC\rtc.PrjPcb
+ProjectPath=SDRAM_xs\sdram_xs.PrjPcb
 [Project4]
+ProjectPath=RTC\rtc.PrjPcb
+[Project5]
 ProjectPath=MBModel\mb.PrjPcb
