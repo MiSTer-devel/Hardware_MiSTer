@@ -9,4 +9,6 @@ ProjectPath=SDRAM_xs\sdram_xs.PrjPcb
 [Project4]
 ProjectPath=RTC\rtc.PrjPcb
 [Project5]
+ProjectPath=SDRAM_SRAM\sdram_sram.PrjPcb
+[Project6]
 ProjectPath=MBModel\mb.PrjPcb
