@@ -14,12 +14,15 @@ latency and cannot fit into timings of retro EDO DRAM. So, if core quires precis
 Although some cores aren't requiring this board, still many other cores need it.
 Thus **SDRAM board is required**.
 
+### [PiTop boards](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/Addons)
+The set of boards with PiTop in name are made to fit MiSTer into Pi-Top case. Note: it's for Pi-Top v1(original) case only. Pi-Top v2 case has completely different placements and conections and therefore is not compatible.
+
 ### There are two SDRAM board versions:
-* **"SDRAM_uni"** version is universal and can be mounted vertically, horizontally inward or outward. When it's mounted horizontally inward, it covers Arduino GPIO and thus no future expansions will be possible. You always can mount it outward or vertically by de-soldering one connector and solder it to other holes to use Arduino GPIO. Depeding on several factors it can reach up to 167MHz speed if mounted horizontally, up to 150MHz if mounted vertically.
-* **"SDRAM_rev"** version is updated inward-only version. Now it has through holes for Arduino connector, so it's possible to use those GPIO for future extensions. Note: although it has soldering points to retain Arduino long pin female header, it's better not to solder it, but just plug male connector through this SDRAM board. Depeding on several factors it can reach up to 150MHz speed.
+* **"SDRAM_uni"** version is universal and can be mounted vertically, horizontally inward or outward. When it's mounted horizontally inward, it covers Arduino GPIO and thus no future expansions will be possible. You always can mount it outward or vertically by de-soldering one connector and solder it to other holes to use Arduino GPIO. Depeding on several factors it can reach up to 167MHz speed if mounted horizontally, up to 150MHz if mounted vertically. Note: horizontal inward position is not compatible with new I/O Board and covers Arduino GPIO pins. Thus horizontal inward mounting is not recommended. Use SDRAM_xs for compact mounting.
+* **"SDRAM_xs"** is extra slim version. It's mounted vertically but doesn't protrude from I/O Board and can be used in smaller/slimmer cases. Maximum speed is a little higher than SDRAM_uni mounted vertically due to shorter traces. This version requires some experience in soldering and not convenient for mass production.
 
 ## Notes
-You need to use Altium Designer v17.0 (or later) in order to view the source files. For convenience, [gerber files](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/releases) are also included
+You need to use Altium Designer v17.0 (or later) in order to view the source files. For convenience, [gerber files (*.zip)](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/releases) are also included
 and ready to submit to PCB manufacturer.
 
 Some quick notes:
@@ -37,7 +40,7 @@ Use [Memtest](https://github.com/MiSTer-devel/MemTest_MiSTer/tree/master/release
 * SDRAM board can be mounted vertically and horizontally. Horizontal mount gives a little higher supported clocks. Vertical mount has better look like cartridge.
 * For straight 40pin header (IOBoard and horizontal SDRAM board) it's advised to use a [special header](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/images/header_2.54mm_Pitch-2x20_Pin-Female-Double_Row-Long_Pin.jpg) with additional plastic on pins making it higher and match the height of Arduino header of DE10-nano board. You can find such connectors on Aliexpress ([pack of 10](https://www.aliexpress.com/item/10-Pcs-NEW-2-54mm-Pitch-2x20-Pin-40-Pin-Female-Double-Row-Long-Pin-Header/32812823728.html) or [pack of 2](https://www.aliexpress.com/item/2-Pcs-PC104-2-54mm-Pitch-2x20-Pin-40-Pin-Female-Double-Row-Long-Pin-Header/32805691836.html)). If it's impossible to find a pictured header then there are 2 less convenient options: 1) use standard profile straight connector. You need to solder it as high as possible for better contact. It won't plug fully due to arduino high header and your board may weagle (especially SDRAM horisontal board) and may damage the DE10-nano connectors - so you have to be careful! 2) Use angled 2x20pin header. You need straighten its pins, so you will get long straight pins. Then connect it to DE10-nano board and then insert the daughter board on top and keeping it at the level when it will be parallel to main board and fully sit on arduino header, solder several pins (be careful! don't damage DE10-nano by static!) then carefully unplug the daughter board with connector and solder rest pins. If you will make it right, then you will get a perfectly sitting connector.
 * For angled 40pin header (Vertical SDRAM board) use [standard angled 40pin header](https://github.com/MiSTer-devel/Hardware_MiSTer/blob/master/images/header_2.54mm_Pitch-2x20_Pin-Female-Double_Row-Right_Angle_Pin.jpg)
-* Every board has PDF file with schematic and PCB outlook in corrsponding folder, so you don't need any special application if you are not going to edit the files.
+* Every board has PDF file with schematic and PCB outlook, so you don't need any special application if you are not going to edit the files.
 
 ### Some images of boards can be found [here](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/images)
 
