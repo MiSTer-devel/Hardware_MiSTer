@@ -14,12 +14,12 @@ latency and cannot fit into timings of retro EDO DRAM. So, if core quires precis
 Although some cores aren't requiring this board, still many other cores need it.
 Thus **SDRAM board is required**.
 
-### [PiTop boards](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/Addons)
-The set of boards with PiTop in name are made to fit MiSTer into Pi-Top case. Note: it's for Pi-Top v1(original) case only. Pi-Top v2 case has completely different placements and conections and therefore is not compatible.
-
 ### There are two SDRAM board versions:
 * **"SDRAM_uni"** version is universal and can be mounted vertically, horizontally inward or outward. When it's mounted horizontally inward, it covers Arduino GPIO and thus no future expansions will be possible. You always can mount it outward or vertically by de-soldering one connector and solder it to other holes to use Arduino GPIO. Depeding on several factors it can reach up to 167MHz speed if mounted horizontally, up to 150MHz if mounted vertically. Note: horizontal inward position is not compatible with new I/O Board and covers Arduino GPIO pins. Thus horizontal inward mounting is not recommended. Use SDRAM_xs for compact mounting.
 * **"SDRAM_xs"** is extra slim version. It's mounted vertically but doesn't protrude from I/O Board and can be used in smaller/slimmer cases. Maximum speed is a little higher than SDRAM_uni mounted vertically due to shorter traces. This version requires some experience in soldering and not convenient for mass production.
+
+### [PiTop boards](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/Addons)
+The set of boards with PiTop in name are made to fit MiSTer into Pi-Top case. Note: it's for Pi-Top v1(original) case only. Pi-Top v2 case has completely different placements and conections and therefore is not compatible.
 
 ## Notes
 You need to use Altium Designer v17.0 (or later) in order to view the source files. For convenience, [gerber files (*.zip)](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/releases) are also included
