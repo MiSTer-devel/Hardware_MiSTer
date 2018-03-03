@@ -19,7 +19,7 @@ Thus **SDRAM board is required**.
 * **"SDRAM_rev"** version is updated inward-only version. Now it has through holes for Arduino connector, so it's possible to use those GPIO for future extensions. Note: although it has soldering points to retain Arduino long pin female header, it's better not to solder it, but just plug male connector through this SDRAM board. Depeding on several factors it can reach up to 150MHz speed.
 
 ## Notes
-You need to use Altium Designer v17.0 (or later) in order to view the source files. For convenience, [gerber files](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/gerber_releases) are also included
+You need to use Altium Designer v17.0 (or later) in order to view the source files. For convenience, [gerber files](https://github.com/MiSTer-devel/Hardware_MiSTer/tree/master/releases) are also included
 and ready to submit to PCB manufacturer.
 
 Some quick notes:
