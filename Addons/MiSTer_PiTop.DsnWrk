@@ -1,7 +1,7 @@
 [ProjectGroup]
 Version=1.0
 [Project1]
-ProjectPath=IOBoard_PiTopAIO\PiTopAIO.PrjPcb
+ProjectPath=PiTopAIO\PiTopAIO.PrjPcb
 [Project2]
 ProjectPath=PiTopAudio\PiTopAudio.PrjPcb
 [Project3]
