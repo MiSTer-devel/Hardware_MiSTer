@@ -5,8 +5,6 @@ ProjectPath=PiTopAIO\PiTopAIO.PrjPcb
 [Project2]
 ProjectPath=PiTopAudio\PiTopAudio.PrjPcb
 [Project3]
-ProjectPath=PiTopConn\PiTopConn.PrjPcb
+ProjectPath=PiTopUSBHub\PiTopUSBHub.PrjPcb
 [Project4]
 ProjectPath=RTC\rtc.PrjPcb
-[Project5]
-ProjectPath=PiTopUSBHub\PiTopUSBHub.PrjPcb
