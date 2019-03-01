@@ -58,7 +58,7 @@ OutputEnabled2_OutputMedium2=2
 OutputEnabled2_OutputMedium3=0
 OutputEnabled2_OutputMedium4=0
 OutputDefault2=0
-PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=5.76|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.93|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration2_Name1=OutputConfigurationParameter1
 Configuration2_Item1=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView
 Configuration2_Name2=OutputConfigurationParameter2
@@ -117,7 +117,7 @@ PDFACompliance2=Disabled
 PDFVersion2=Default
 OutputFilePath3=
 ReleaseManaged3=1
-OutputBasePath3=Project Outputs
+OutputBasePath3=Project Outputs for iobrd
 OutputPathMedia3=
 OutputPathMediaValue3=
 OutputPathOutputer3=[Output Type]
@@ -130,7 +130,7 @@ OutputFileNameSpecial3=
 OpenOutput3=1
 OutputFilePath4=
 ReleaseManaged4=1
-OutputBasePath4=Project Outputs
+OutputBasePath4=Project Outputs for iobrd
 OutputPathMedia4=
 OutputPathMediaValue4=
 OutputPathOutputer4=[Output Type]
