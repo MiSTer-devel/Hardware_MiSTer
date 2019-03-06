@@ -14,3 +14,5 @@ ProjectPath=USBHub\USBHub.PrjPcb
 ProjectPath=SDRAM_SRAM\sdram_sram.PrjPcb
 [Project7]
 ProjectPath=MBModel\mb.PrjPcb
+[Project8]
+ProjectPath=USBBridge\USBBridge.PrjPcb
