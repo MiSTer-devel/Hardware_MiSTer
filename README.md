@@ -70,4 +70,4 @@ Another suggested PCB manufacturer is OSHPark. Here is the [direct link](https:/
 * Finished Copper: 1oz or more
 * Surface Finish - HASL with lead. Some manufacturers provide ENIG (immersion gold) for free, but i don't suggest it as it's harder to solder than HASL (pre-soldered finish). "With lead" means lower soldering temperature. "Lead free" will require higher temperature for soldering.
 
-Here are pre-defined orders on PCBWay, so you it's just matter of couple mouse clicks: [Order the boards](https://www.pcbway.com/project/member/shareproject/?bmbid=43024)
+Here are pre-defined orders on PCBWay, so you it's just matter of couple mouse clicks: [Order the boards](https://www.pcbway.com/project/member/shareproject/?bmbno=W43024A)
