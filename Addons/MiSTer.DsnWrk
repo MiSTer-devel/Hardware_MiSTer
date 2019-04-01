@@ -16,3 +16,7 @@ ProjectPath=SDRAM_SRAM\sdram_sram.PrjPcb
 ProjectPath=MBModel\mb.PrjPcb
 [Project8]
 ProjectPath=USBBridge\USBBridge.PrjPcb
+[Project9]
+ProjectPath=USBBracket\USBBracket.PrjPcb
+[Project10]
+ProjectPath=USBBridge3150\USBBridge3150.PrjPcb
