@@ -13,10 +13,10 @@ ProjectPath=USBHub\USBHub.PrjPcb
 [Project6]
 ProjectPath=SDRAM_SRAM\sdram_sram.PrjPcb
 [Project7]
-ProjectPath=MBModel\mb.PrjPcb
-[Project8]
 ProjectPath=USBBridge\USBBridge.PrjPcb
-[Project9]
+[Project8]
 ProjectPath=USBBracket\USBBracket.PrjPcb
-[Project10]
+[Project9]
 ProjectPath=USBBridge3150\USBBridge3150.PrjPcb
+[Project10]
+ProjectPath=MBModel\mb.PrjPcb
