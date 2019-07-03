@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for USBHub
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 LinkedManagedProjectGUID=
@@ -122,66 +122,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[GeneratedDocument1]
-DocumentPath=Project Outputs for USBHub\Design Rule Check - USBHub.html
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for USBHub\USBHub-RoundHoles.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for USBHub\USBHub-SlotHoles.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs for USBHub\USBHub.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs for USBHub\USBHub.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs for USBHub\USBHub.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for USBHub\USBHub.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs for USBHub\USBHub.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs for USBHub\USBHub.GKO
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs for USBHub\USBHub.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Project Outputs for USBHub\USBHub.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Project Outputs for USBHub\USBHub.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Project Outputs for USBHub\USBHub.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=Project Outputs for USBHub\USBHub.REP
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=Project Outputs for USBHub\USBHub.RUL
-DItemRevisionGUID=
-
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -264,7 +204,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=-1
 
 [Generic_EDE]
-OutputDir=Project Outputs for USBHub
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
