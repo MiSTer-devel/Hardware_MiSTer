@@ -1,0 +1,8 @@
+[ProjectGroup]
+Version=1.0
+[Project1]
+ProjectPath=MT32Pi_lite.PrjPcb
+[Project2]
+ProjectPath=MT32Pi_lite_Top.PrjPcb
+[Project3]
+ProjectPath=MT32Pi_lite_Top_Cut.PrjPcb
