@@ -33,7 +33,7 @@ FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=1
 IsVirtualBomDocumentRemoved=1
-OutputPath=Project Outputs for rtc
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -220,7 +220,7 @@ Wir_PrintColor=0
 Ldr_PrintColor=0
 
 [Generic_EDE]
-OutputDir=Project Outputs for rtc
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
