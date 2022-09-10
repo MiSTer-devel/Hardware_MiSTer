@@ -54,58 +54,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PNQJKPAS
 
-[GeneratedDocument1]
-DocumentPath=Project Outputs for MT32Pi_lite_Top\MT32Pi_lite_Top.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for MT32Pi_lite_Top\MT32Pi_lite_Top.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for MT32Pi_lite_Top\MT32Pi_lite_Top.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs for MT32Pi_lite_Top\MT32Pi_lite_Top.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs for MT32Pi_lite_Top\MT32Pi_lite_Top.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs for MT32Pi_lite_Top\MT32Pi_lite_Top.GKO
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for MT32Pi_lite_Top\MT32Pi_lite_Top.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs for MT32Pi_lite_Top\MT32Pi_lite_Top.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs for MT32Pi_lite_Top\MT32Pi_lite_Top.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs for MT32Pi_lite_Top\MT32Pi_lite_Top.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Project Outputs for MT32Pi_lite_Top\MT32Pi_lite_Top.REP
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Project Outputs for MT32Pi_lite_Top\MT32Pi_lite_Top.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Project Outputs for MT32Pi_lite_Top\MT32Pi_lite_Top.TXT
-DItemRevisionGUID=
-
 [Configuration1]
 Name=Sources
 ParameterCount=0

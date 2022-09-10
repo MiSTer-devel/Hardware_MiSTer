@@ -54,58 +54,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PNQJKPAS
 
-[GeneratedDocument1]
-DocumentPath=Project Outputs for MT32Pi_lite_Top_Cut\MT32Pi_lite_Top_Cut.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for MT32Pi_lite_Top_Cut\MT32Pi_lite_Top_Cut.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for MT32Pi_lite_Top_Cut\MT32Pi_lite_Top_Cut.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs for MT32Pi_lite_Top_Cut\MT32Pi_lite_Top_Cut.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs for MT32Pi_lite_Top_Cut\MT32Pi_lite_Top_Cut.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs for MT32Pi_lite_Top_Cut\MT32Pi_lite_Top_Cut.GKO
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for MT32Pi_lite_Top_Cut\MT32Pi_lite_Top_Cut.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs for MT32Pi_lite_Top_Cut\MT32Pi_lite_Top_Cut.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs for MT32Pi_lite_Top_Cut\MT32Pi_lite_Top_Cut.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs for MT32Pi_lite_Top_Cut\MT32Pi_lite_Top_Cut.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Project Outputs for MT32Pi_lite_Top_Cut\MT32Pi_lite_Top_Cut.REP
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Project Outputs for MT32Pi_lite_Top_Cut\MT32Pi_lite_Top_Cut.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Project Outputs for MT32Pi_lite_Top_Cut\MT32Pi_lite_Top_Cut.TXT
-DItemRevisionGUID=
-
 [Configuration1]
 Name=Sources
 ParameterCount=0
